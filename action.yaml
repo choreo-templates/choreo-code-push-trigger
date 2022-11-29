@@ -1,0 +1,25 @@
+name: 'Choreo Code Push Trigger'
+description: 'Choreo Code Push Trigger'
+author: WSO2
+branding:
+  icon: 'arrow-up-circle'
+  color: 'orange'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+inputs:
+  baseURL:
+    required: true
+    description: 'Call back base URL'
+  componentId:
+    required: true
+    description: 'Component ID'
+  versionId:
+    required: true
+    description: 'Version ID'
+  secret:
+    required: true
+    description: "Secret for authorization"
+  payload:
+    required: true
+    description: 'Request Payload'

@@ -1,0 +1,14 @@
+{
+  "name": "choreo-code-push-trigger",
+  "version": "1.0.0",
+  "description": "This action is created to trigger the code push",
+  "main": "index.js",
+  "repository": "https://github.com/choreo-templates/choreo-code-push-trigger.git",
+  "author": "yashodgayashan <yashodgayashan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@octokit/core": "^4.1.0",
+    "axios": "^1.2.0"
+  }
+}
