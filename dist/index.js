@@ -9016,7 +9016,7 @@ try {
   const secret = core.getInput('secret');
   const payload = core.getInput('payload');
 
-  const url = `${baseURL}/choreo/component/code-push?componentId=${componentId}&versionId=${versionId}`;
+  const url = `${baseURL}/component/code-push?componentId=${componentId}&versionId=${versionId}`;
   const reqPayload = JSON.parse(payload);
   const config = {
     headers: {
